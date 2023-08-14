@@ -38,4 +38,6 @@ booking_avaliation = booking_avaliation |> unlist()
 
 df_hotels = data.frame(hotel_name, hotel_price, booking_avaliation)
 
+write.csv(df_hotels, 'D:/UFJF_materias/mgest2023/hotels_jf.csv')
+
 
